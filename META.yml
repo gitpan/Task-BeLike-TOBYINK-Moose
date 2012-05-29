@@ -1,0 +1,44 @@
+---
+abstract: 'be like TOBYINK and use these Moose stuffz'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.61
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.02'
+keywords: []
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Task::BeLike::TOBYINK::Moose
+name: Task-BeLike-TOBYINK-Moose
+no_index:
+  directory:
+    - inc
+    - xt
+requires:
+  Any::Moose: 0
+  Moose: 0
+  MooseX::Declare: 0
+  MooseX::NonMoose: 0
+  MooseX::Semantic: 0
+  MooseX::Traits: 0
+  MooseX::Types: 0
+  MooseX::Types::Common: 0
+  MooseX::Types::DateTime::ButMaintained: 0
+  MooseX::Types::Path::Class: 0
+  MooseX::Types::Perl: 0
+  MooseX::Types::URI: 0
+  Throwable: 0
+  TryCatch: 0
+  namespace::sweep: 0
+  perl: 5.10.0
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Task-BeLike-TOBYINK-Moose
+  homepage: https://metacpan.org/release/Task-BeLike-TOBYINK-Moose
+  license: http://dev.perl.org/licenses/
+version: 2012.150

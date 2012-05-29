@@ -1,0 +1,15 @@
+Any::Moose
+Moose
+MooseX::Declare
+MooseX::NonMoose
+MooseX::Semantic
+MooseX::Traits
+MooseX::Types
+MooseX::Types::Common
+MooseX::Types::DateTime::ButMaintained
+MooseX::Types::Path::Class
+MooseX::Types::Perl
+MooseX::Types::URI
+Throwable
+TryCatch
+namespace::sweep
