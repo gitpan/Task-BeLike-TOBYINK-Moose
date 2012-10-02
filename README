@@ -5,15 +5,27 @@ NAME
 DESCRIPTION
     Task installs the following modules:
 
-    *   Any::Moose
-
     *   Moose
 
-    *   MooseX::Declare
+    *   MooseX::ABCD
+
+    *   MooseX::ArrayRef
+
+    *   MooseX::AttributeShortcuts
+
+    *   MooseX::DeclareX
+
+    *   MooseX::DeclareX::Keyword::interface
+
+    *   MooseX::DeclareX::Plugin::abstract
+
+    *   MooseX::DeclareX::Plugin::singleton
+
+    *   MooseX::FunkyAttributes
+
+    *   MooseX::Interface
 
     *   MooseX::NonMoose
-
-    *   MooseX::Semantic
 
     *   MooseX::Traits
 
@@ -21,13 +33,13 @@ DESCRIPTION
 
     *   MooseX::Types::Common
 
-    *   MooseX::Types::DateTime::ButMaintained
-
     *   MooseX::Types::Path::Class
 
     *   MooseX::Types::Perl
 
     *   MooseX::Types::URI
+
+    *   Scalar::Does
 
     *   Throwable
 

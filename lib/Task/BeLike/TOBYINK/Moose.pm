@@ -4,7 +4,7 @@ use 5.010;
 
 BEGIN {
 	$Task::BeLike::TOBYINK::Moose::AUTHORITY = 'cpan:TOBYINK';
-	$Task::BeLike::TOBYINK::Moose::VERSION   = '2012.150';
+	$Task::BeLike::TOBYINK::Moose::VERSION   = '2012.276';
 }
 
 __PACKAGE__
@@ -20,15 +20,27 @@ Task installs the following modules:
 
 =over
 
-=item * Any::Moose
-
 =item * Moose
 
-=item * MooseX::Declare
+=item * MooseX::ABCD
+
+=item * MooseX::ArrayRef
+
+=item * MooseX::AttributeShortcuts
+
+=item * MooseX::DeclareX
+
+=item * MooseX::DeclareX::Keyword::interface
+
+=item * MooseX::DeclareX::Plugin::abstract
+
+=item * MooseX::DeclareX::Plugin::singleton
+
+=item * MooseX::FunkyAttributes
+
+=item * MooseX::Interface
 
 =item * MooseX::NonMoose
-
-=item * MooseX::Semantic
 
 =item * MooseX::Traits
 
@@ -36,13 +48,13 @@ Task installs the following modules:
 
 =item * MooseX::Types::Common
 
-=item * MooseX::Types::DateTime::ButMaintained
-
 =item * MooseX::Types::Path::Class
 
 =item * MooseX::Types::Perl
 
 =item * MooseX::Types::URI
+
+=item * Scalar::Does
 
 =item * Throwable
 
